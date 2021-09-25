@@ -102,12 +102,14 @@ main p {
 }
 
 .box-container {
-  width: 60%;
+  width: 100%;
+  max-width: 1000px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   margin: 0 auto;
+  gap: 5rem;
 }
 
 .item {
